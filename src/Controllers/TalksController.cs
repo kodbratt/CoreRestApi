@@ -16,7 +16,7 @@ namespace CoreCodeCamp.Controllers
         private ICampRepository _campRespository;
         private IMapper _mapper;
         private LinkGenerator _linkGenerator;
-        //Test
+        
         public TalksController(ICampRepository campRepository, IMapper mapper, LinkGenerator linkGenerator)
         {
             _campRespository = campRepository;
